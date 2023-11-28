@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+
+
+    <title>Calculadora IMC</title>
+</head>
+<body>  
+    
+    
+    <div class="container"> <!-- Container principal -->
+        <div class="outer-container">
+            <div class="social-icons">                
+                <a href=""><img src="./Assets/github.png" alt=""></a>
+                <a href=""><img src="./Assets/linkedin.png" alt=""></a>
+                <a href=""><img src="./Assets/instagram.png" alt=""></a>
+                <a href=""><img src="./Assets/whatsapp.png" alt=""></a>
+            </div>
+        </div> 
+        <h1>Calcule seu IMC</h1>        
+                    
+        <label for="name">Nome:</label>
+        <input type="text" id="name" placeholder="Digite seu nome" required> 
+        <label for="weight">Peso (kg):</label>                       
+        <input type="number" id="weight" placeholder="Digite seu peso" required> 
+        <label for="height">Altura (m):</label>             
+        <input type="number" id="height" placeholder="Digite sua altura" required> 
+
+        <button onclick="calcularIMC()">Calcular</button>                  
+        <br>
+        <br>        
+        <labe>Resultado:</label> 
+        <div id="resultado"></div>
+        
+        <br>
+
+    </div>
+    <footer>
+        <p> Desenvolvido por <a href="https://github.com/DevRicart" target="_blank">
+            Ricardo Gonçalves</a> no Curso de Programador
+            Front-End com o Prof. Anthony Freitas
+            <br>Todos os direitos reservados - Senai Maracanã - 2023©</p>
+    </footer>          
+</body>
+<script src="./script.js"></script>
+</html>

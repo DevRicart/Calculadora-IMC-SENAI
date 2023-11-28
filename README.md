@@ -1,2 +1,2 @@
-# Calculadora-IMC-SENAI
-Projeto para o curso do SENAI
+# CalculadoraIMC
+Projetos da turma EAD Senai FrontEnd 2023
